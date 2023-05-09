@@ -1,0 +1,69 @@
+[21-Feb-2022 15:56:31 UTC] PHP Notice:  include(): read of 15795 bytes failed with errno=12 Cannot allocate memory in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php on line 476
+[21-Feb-2022 15:56:31 UTC] PHP Warning:  include(): Failed opening '/home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/../laravel/framework/src/Illuminate/Http/Request.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php on line 476
+[21-Feb-2022 15:56:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Request' not found in /home/scqfwfqehosting/public_html/tulieumvga.com/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/scqfwfqehosting/public_html/tulieumvga.com/index.php on line 55
+[13-Jun-2022 03:18:26 UTC] PHP Notice:  include(): read of 9341 bytes failed with errno=12 Cannot allocate memory in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php on line 476
+[13-Jun-2022 03:18:26 UTC] PHP Warning:  include(): Failed opening '/home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/../symfony/http-foundation/HeaderUtils.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php on line 476
+[10-Jul-2022 20:25:27 UTC] PHP Warning:  include(): Failed opening '/home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Routing/BindingRegistrar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php on line 476
+[10-Jul-2022 20:25:27 UTC] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Routing\BindingRegistrar' not found in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php:30
+Stack trace:
+#0 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): include()
+#1 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(344): Composer\Autoload\includeFile('/home/scqfwfqeh...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Rout...')
+#3 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php(43): spl_autoload_call('Illuminate\\Rout...')
+#4 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Routing\RoutingServiceProvider->Illuminate\Routing\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 30
+[11-Aug-2022 22:25:25 UTC] PHP Notice:  include(): read of 1487 bytes failed with errno=12 Cannot allocate memory in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php on line 476
+[11-Aug-2022 22:25:25 UTC] PHP Warning:  include(): Failed opening '/home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/../symfony/http-kernel/HttpKernelInterface.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php on line 476
+[11-Aug-2022 22:25:25 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:29
+Stack trace:
+#0 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): include()
+#1 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(344): Composer\Autoload\includeFile('/home/scqfwfqeh...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#3 /home/scqfwfqehosting/public_html/tulieumvga.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...')
+#4 /home/scqfwfqehosting/public_html/tulieumvga.com/index.php(38): require_once('/home/scqfwfqeh...')
+#5 {main}
+  thrown in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 29
+[27-Aug-2022 13:19:20 Asia/Ho_Chi_Minh] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(): read of 422 bytes failed with errno=12 Cannot allocate memory in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php:476
+Stack trace:
+#0 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'include(): read...', '/home/scqfwfqeh...', 476, Array)
+#1 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): include()
+#2 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(344): Composer\Autoload\includeFile('/home/scqfwfqeh...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Carbon\\Traits\\O...')
+#4 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/nesbot/carbon/src/Carbon/Traits/Creator.php(36): spl_autoload_call('Carbon\\Traits\\O...')
+#5 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): include('/home/scqfwfqe in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/nesbot/carbon/src/Carbon/Traits/Creator.php on line 36
+[27-Aug-2022 15:17:43 Asia/Ho_Chi_Minh] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(): read of 505 bytes failed with errno=12 Cannot allocate memory in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php:476
+Stack trace:
+#0 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'include(): read...', '/home/scqfwfqeh...', 476, Array)
+#1 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): include()
+#2 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(344): Composer\Autoload\includeFile('/home/scqfwfqeh...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\View...')
+#4 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(9): spl_autoload_call('Illuminate\\View...')
+#5 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): incl in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 9
+[29-Aug-2022 07:22:55 UTC] PHP Warning:  include(): Failed opening '/home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/../vlucas/phpdotenv/src/Repository/Adapter/ServerConstAdapter.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php on line 476
+[29-Aug-2022 07:22:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('config')
+#1 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('config')
+#2 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illumin in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[10-Sep-2022 07:18:00 Asia/Ho_Chi_Minh] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(): read of 1053 bytes failed with errno=12 Cannot allocate memory in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php:476
+Stack trace:
+#0 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'include(): read...', '/home/scqfwfqeh...', 476, Array)
+#1 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): include()
+#2 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(344): Composer\Autoload\includeFile('/home/scqfwfqeh...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\View...')
+#4 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(9): spl_autoload_call('Illuminate\\View...')
+#5 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php(476): inc in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 9
+[11-Oct-2022 07:56:20 UTC] PHP Notice:  include(): read of 1096 bytes failed with errno=12 Cannot allocate memory in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php on line 476
+[11-Oct-2022 07:56:20 UTC] PHP Warning:  include(): Failed opening '/home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/../vlucas/phpdotenv/src/Repository/Adapter/PutenvAdapter.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/composer/ClassLoader.php on line 476
+[11-Oct-2022 07:56:20 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('config')
+#1 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('config')
+#2 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illumin in /home/scqfwfqehosting/public_html/tulieumvga.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
